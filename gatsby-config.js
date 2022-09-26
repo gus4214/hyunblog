@@ -1,15 +1,24 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Hyun Beom Blog`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Hyun Beom Lee`,
+      summary: `현범의 블로그`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `더 나은 개발자가 되기 위하여 블로그를 시작했습니다.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
       twitter: `kylemathews`,
+      github: `gus4214`,
     },
+    categories: [
+      {
+        name: "web",
+        slug: "web",
+        color: "#0c9ee4",
+        link: "/category/web",
+      },
+    ],
   },
   plugins: [
     `gatsby-plugin-image`,
